@@ -218,19 +218,13 @@ nav {
   object-fit: cover;
 }
 /* Gallery */
-.gallery {
+.gallery, .gallery11{
   display: grid;
-  min-height: 100vh;
+  min-height: 200vh;
   grid-template-columns: repeat(2, 1fr);
   position: relative;
 }
-.gallery11 {
-  display: grid;
-  min-height: 100vh;
-  grid-template-columns: repeat(2, 1fr);
-  position: relative;
  
-}
 .gallery img, 
 .gallery11 img
  {
